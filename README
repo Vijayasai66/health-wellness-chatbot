@@ -7,3 +7,20 @@ B2C dashboards and health tools (BMI, calories, hydration)
 Guided breathing timer, sleep hygiene, daily tips
 Profile builder to set age, weight, fitness goals, etc.
 Low-code setup using Google Sheets & LangGraph (future ready)
+## Tech Stack
+## Components and Technology
+Frontend - Streamlit
+LLM API - mistralai/mistral-7b-instruct:free` via [OpenRouter](https://openrouter.ai)
+LangChain - For prompt and message flow management
+LangGraph -  Modular state graph to stream model responses
+Memory - LangGraph `MemorySaver` for session state
+Environment - . env file for storing API Keys securely
+### Create a .env file with:
+OPENROUTER_API_KEY=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
+Then run the app: streamlit run app.py
+## Example prompts
+"Give me a healthy post-workout meal plan."
+"How much water should I drink if I weigh 65kg?"
+"Can you help me sleep better?"
+### Disclaimer
+This chatbot provides general wellness guidance and is not a substitute for medical advice. Please consult professionals for medical concerns.
