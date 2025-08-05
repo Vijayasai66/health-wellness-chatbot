@@ -1,3 +1,9 @@
 ## Health & Wellness Chatbot
 An AI-powered wellness assistant built using Streamlit, Langchain and OpenRouter. This chatbot helps users with health queries, lifestyle planning, and wellness goal tracking through an interactive UI.
 ## Features 
+Natural chat interface for health & wellness Q&A
+Personalized workout and diet planning (based on profile)
+B2C dashboards and health tools (BMI, calories, hydration)
+Guided breathing timer, sleep hygiene, daily tips
+Profile builder to set age, weight, fitness goals, etc.
+Low-code setup using Google Sheets & LangGraph (future ready)
